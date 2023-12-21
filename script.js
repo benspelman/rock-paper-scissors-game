@@ -8,6 +8,7 @@ const buttons = [rock, paper, scissors];
 const gameOptions = ["rock", "paper", "scissors"];
 
 const userChoiceEvent = (e) => {
+	console.log("testing");
 	gameResult.innerText = "";
 	computerChoiceResult.innerHTML =
 		"<em style='font-size: 0.85rem;'>calculating...</em>";
